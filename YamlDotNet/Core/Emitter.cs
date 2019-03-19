@@ -888,7 +888,7 @@ namespace YamlDotNet.Core
 
             if (style == ScalarStyle.Any)
             {
-                style = scalarData.isMultiline ? ScalarStyle.Folded : ScalarStyle.Plain;
+                style = scalarData.isMultiline ? ScalarStyle.Literal : ScalarStyle.Plain;
             }
 
             if (isCanonical)
